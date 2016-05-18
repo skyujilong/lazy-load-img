@@ -12,7 +12,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname),
         filename: "[name].js",
-        library: "img-lazy-load",
+        library: "lazy-load-img",
         libraryTarget:"umd"//对外输出格式
     },
     resolve: {
