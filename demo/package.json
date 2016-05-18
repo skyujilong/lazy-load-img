@@ -1,0 +1,12 @@
+{
+  "name": "lazy-load-img-demo",
+  "version": "0.0.1",
+  "dependencies": {
+    "webpack": "1.13.0",
+    "babel-loader":"*",
+    "babel-core":"*",
+    "babel-preset-es2015":"*",
+    "babel-plugin-transform-runtime":"*",
+    "babel-runtime":"*"
+  }
+}
