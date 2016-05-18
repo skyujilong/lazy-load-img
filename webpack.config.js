@@ -5,7 +5,7 @@
 var path = require("path");
 var webpack = require('webpack');
 module.exports = {
-    devtool: '#source-map',
+    devtool: '#inline-source-map',
     entry: {
         index:'index'
     },
