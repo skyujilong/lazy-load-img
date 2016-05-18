@@ -10,9 +10,9 @@ module.exports = {
         index:'index'
     },
     output: {
-        path: path.resolve(__dirname, "assets"),
+        path: path.resolve(__dirname),
         filename: "[name].js",
-        library: "test-lib",
+        library: "img-lazy-load",
         libraryTarget:"commonjs"//对外输出格式
     },
     resolve: {
