@@ -1,5 +1,14 @@
-exports["img-lazy-load"] =
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(require("$"));
+	else if(typeof define === 'function' && define.amd)
+		define(["$"], factory);
+	else if(typeof exports === 'object')
+		exports["img-lazy-load"] = factory(require("$"));
+	else
+		root["img-lazy-load"] = factory(root["$"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE_21__) {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -454,8 +463,10 @@ exports["img-lazy-load"] =
 /* 21 */
 /***/ function(module, exports) {
 
-	module.exports = require("$");
+	module.exports = __WEBPACK_EXTERNAL_MODULE_21__;
 
 /***/ }
-/******/ ]);
+/******/ ])
+});
+;
 //# sourceMappingURL=index.js.map
