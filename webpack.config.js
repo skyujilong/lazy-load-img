@@ -13,7 +13,7 @@ module.exports = {
         path: path.resolve(__dirname),
         filename: "[name].js",
         library: "lazy-load-img",
-        libraryTarget:"umd"//对外输出格式
+        libraryTarget:"commonjs"//对外输出格式
     },
     resolve: {
         root: [path.join(__dirname, 'src')],
@@ -29,8 +29,5 @@ module.exports = {
     },
     plugins: [
         new webpack.NoErrorsPlugin()//变异错误不打断主线程
-    ],
-    externals:{
-        'jquery':'$'
-    }
+    ]
 };

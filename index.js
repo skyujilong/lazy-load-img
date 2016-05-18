@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("$"));
-	else if(typeof define === 'function' && define.amd)
-		define(["$"], factory);
-	else if(typeof exports === 'object')
-		exports["img-lazy-load"] = factory(require("$"));
-	else
-		root["img-lazy-load"] = factory(root["$"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_21__) {
-return /******/ (function(modules) { // webpackBootstrap
+exports["lazy-load-img"] =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -69,7 +60,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	/**
 	 * Created by sina on 2016/5/17.
 	 */
-	var $ = __webpack_require__(21);
 	
 	var Loader = function () {
 	    function Loader(opt, offset, container) {
@@ -459,14 +449,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	};
 
-/***/ },
-/* 21 */
-/***/ function(module, exports) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_21__;
-
 /***/ }
-/******/ ])
-});
-;
+/******/ ]);
 //# sourceMappingURL=index.js.map

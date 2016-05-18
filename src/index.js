@@ -1,7 +1,7 @@
 /**
  * Created by sina on 2016/5/17.
  */
-let $ = require('jquery');
+
 class Loader{
     constructor(opt,offset,container){
         this.opt = opt;
